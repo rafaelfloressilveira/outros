@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(220, 220, 220, 0.90); 
+}
+body {
+    width: 70%;
+    margin: 5%;
+    font-size: 100% Arial, 'Merriweather', sans-serif;
+    padding: 1em 50px;
+    background: rgb(244, 244, 244);
+    border-bottom: 10px solid rgb(220, 220, 220);
+}
+h1 {
+    font-family: Georgia, 'Merriweather', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.4em;
+    padding: 5px 10 px;
+}
+p {
+    line-height: 1.8;
+    text-align: justify;
+    width: 98%;
+    margin: 0;
+    margin-bottom: 1em;
+}
+img {
+    float: left;
+    width: 15%;
+    margin: 8pt;
+}

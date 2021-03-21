@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alertas e prompts 2</title>
+    <style>
+        body {
+            background-color: rgb(0, 183, 255);
+            color: white;
+            font: normal 18pt Arial strong;
+        }
+        h1 {
+            color:rgba(255, 154, 71, 0.822) /* Comentário em CSS */
+        }
+    </style>
+</head>
+<body>
+    <!-- Comentário em HTML -->
+    <h1>Hello World!</h1>
+    <p>Primeiro passo feito.</p>
+    <script>
+        // Comentário de uma linha em JS
+        /* Comentário em várias linhas em JS
+        Fechamento do comentário várias linhas em JS */
+        var n1 = Number.parseFloat(window.prompt('Escreva um número:')) // Number.parseFloat é número real (parcial: 7.5)
+        var n2 = Number.parseFloat(window.prompt('Escreva outro número:')) // Number.parseInt é número inteiro = 10
+        // Atualmente pode-se usar somente Number
+        // Para string pode ser utilizado string(n) ou n.toString()
+        s = n1 + n2
+        window.alert('A soma de '+n1+' e '+n2+' é igual a '+s+'!')
+        // Atualmente também pode ser utilizado o alerta de forma diferente com o template:
+        window.alert(`A soma de ${n1} e ${n2} é igual a ${s}!`)
+    </script>
+</body>
+</html>

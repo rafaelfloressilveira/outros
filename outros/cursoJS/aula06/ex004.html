@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt("Qual é o seu nome?")
+        document.write(`Olá <strong>${nome}</strong>, seu nome possui ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiúscula é ${nome.toUpperCase()}!<br>`)
+        document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}!`)
+
+        // Tratamento de números:
+        var n1 = 1545.8
+        n1.toFixed(2) // resultado -> 1545.80
+        n1.toFixed(2).replace('.',',') // resultado -> 1545,80
+        n1.toLocaleString('pt-BR', {style: "currency", currency: 'BRL'}) // resultado -> R$ 1,545.80
+    
+    </script>
+</body>
+</html>

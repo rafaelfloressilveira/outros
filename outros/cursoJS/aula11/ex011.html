@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfândega Brasileira</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Em que país você nasceu? <input name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="mostrar()">
+    <div id="nac">
+        
+    </div>
+    <script>
+        function mostrar() {
+            var txtn = window.document.querySelector('input#txtnac')          
+            var n = window.document.querySelector('div#nac')
+            var n2 = String(n)
+            n.innerHTML = `<p>Você nasceu no país chamado <strong>${n2}</strong></p>`
+            if (n == 'Brasil') {
+                n.innerHTML += `<p>Você é Brasileiro!</p>`
+            } else {
+                n.innerHTML += `<p>Você é Gringo!</p>`
+            }           
+        }
+
+        // Não efetuado com sucesso, verificar se haverá resolução
+        // É possível colocar outro IF dentro do ELSE
+        // Existe também outro tipo de condição, que é um expressão: "switch" {case a: bloco 1 / case b: bloco 2 / case c: bloco 3 / e infinitamente, e adicionar por último o default para que caso nenhum dos cases funcione, fazer o bloco do default}
+        // no switch, para cada bloco de comando é necessário colocar o "break"
+        
+
+
+    </script>
+</body>
+</html>
