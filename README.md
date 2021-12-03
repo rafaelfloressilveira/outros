@@ -1,5 +1,5 @@
-# Repositório principal
+# Repositório primeiros passos
 
-Destinado a incluir os repositórios de aprendizado (Bootcamps, desafios, imersão, etc)
+Destinado a incluir os repositórios dos primeiros passos do aprendizado (Bootcamps, desafios, imersão, etc)
 
 
